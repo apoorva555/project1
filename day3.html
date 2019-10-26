@@ -1,0 +1,35 @@
+<html>
+    <head>
+     <title>on click button</title>
+     <script src='day3.js' ></script>
+
+    </head>
+    <body>
+        
+            
+        
+         <button onclick="myFunction(this)"> click me</button>
+        <button ondblclick="myFunction1(this)"> click me double</button>
+        <button onmouseover="myFunction2(this)"data-id="sjcit">  rollover</button> 
+        <!-- <div onmouseover = "myFunction3(this,event)" > 
+          event mouseover
+        </div> -->
+        <div id="parent" data-id="sjcit">
+            parent
+            <div id="child">
+                child1
+            </div>
+            <div id="child2" onclick= "sayHi(this)">
+               child2
+            </div>
+            <input type="text" oninput="sayHi()" />
+            <div id="changed">
+
+            </div>
+        </div>
+
+
+
+        </button>
+    </body>
+</html>
